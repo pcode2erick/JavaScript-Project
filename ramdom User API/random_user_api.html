@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random User API testing</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="getRandomUser()">
+<div class="container">
+<div class="upper">
+<img id='img_thumbnail' src="" alt="thumbnail" />
+<p id="name"></p>
+</div>
+<div class="lower">
+<p><i class="fa fa-phone"></i>Phone:<span id="phone"></span></p>
+<p><i class="fa fa-address-book"></i>Address:<span id="address"></span></p>
+<p><i class="fa fa-flag"></i>Country:<span id="country"></span></p>
+<button onClick="getRandomUser()">Get New User Info</button>
+</div>
+</div>
+</body>
+</html>
